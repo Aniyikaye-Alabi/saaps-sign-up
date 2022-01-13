@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Spectral:wght@300&display=swap');
+body {
+    margin: 0px;
+    display: flex;
+}
+
+.sign-up-page {
+    font-family: 'Spectral', serif;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    background: #18345E;
+    backdrop-filter: blur(24px);
+}
+
+.sappimg {
+    width: 357px;
+    height: 302px;
+    padding-bottom: 20px;
+}
+
+.hero-text {
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.eclipse-group {
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.eclipse-group .eclipse1 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    right: 16px;
+}
+
+.eclipse-group .eclipse2 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    right: 8px;
+}
+
+.sign-up-form {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 50%;
+    font-family: 'Spectral', serif;
+}
+
+form {
+    width: 100%;
+    border: orchid solid;
+}
+
+/* .sign-up-form h1 {
+    text-align: center;
+} */
+
+#first-name {
+    width: 218px;
+    height: 50px;
+    background: url(/images/icons/Vectorfirstname.png) no-repeat 185px 12px;
+    background-color: #F4F2F2;
+    
+    /* padding-left: 30px; */
+}
+
+#last-name {
+    width: 218px;
+    height: 50px;
+    background: url(/images/icons/Vectorfirstname.png) no-repeat 185px 12px;
+    background-color: #F4F2F2;
+}
+
+#email {
+    width: 35em;
+    height: 50px;
+    background: url(/images/icons/email.png) no-repeat 183px 14px;
+    background-color: #F4F2F2;
+    background-size: 25px;
+}
+
+#password {
+    width: 218px;
+    height: 50px;
+    background: url(/images/icons/showpassword.png) no-repeat 180px 12px;
+    background-color: #F4F2F2;
+    background-size: 25px;
+}
+
+#confirm-password {
+    width: 218px;
+    height: 50px;
+    background: url(/images/icons/showpassword.png) no-repeat 180px 12px;
+    background-color: #F4F2F2;
+    background-size: 25px;
+}
+
+.input-styles {
+    border-radius: 6px;
+    border: none;
+    height: 50px;
+}
+
+/* .form-style {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .icons {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 190px;
+    bottom: 14px;
+} */
+
